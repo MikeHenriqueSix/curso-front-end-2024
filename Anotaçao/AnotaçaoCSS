@@ -1,0 +1,106 @@
+<!-- /* ==================CSS===================
+
+<p style="color: red; font-size: 30px;">Color em Texto inline</p> 
+ 
+tudo dentro do <style>
+{
+
+}</style> 
+é css puro 
+
+=======================================================
+
+Cores
+
+
+p {
+    font-size: 40px;
+    font-weight: bold;
+    color: aqua;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(68, 90, 30);
+}
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(68, 90, 30, 0.3);
+}
+ h3{
+    font-size: 40px;
+    color: hsl(280, 70%, 70%);
+    border: 1px solid;
+    background-color: hsla(280, 70%, 70%, 0.5);
+ }
+ 
+h1{
+    font-size: 40px;
+    color: hsl(244, 100%, 50%);
+}
+ h2{
+    font-size: 40px;
+    color: hsl(0, 100%, 50%);
+ }
+ 
+=======================================================
+
+ Fontes
+
+ 
+   @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+ p{
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+ }
+
+ p{
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;    
+ }
+ 
+=======================================================
+
+ Tamanho
+
+html{
+    font-size: 20px;
+}
+div{
+    fonte-size: 10px;
+}
+
+ .pixel{
+    color: blue;
+    font-size: 35px;
+ }
+
+ .points{
+    color: brown;
+    font-size: 35pt;
+ } 
+.em{
+    color: coral;
+    font-size: 1em
+}
+ .rem{
+    color: coral;
+    font-size: 1rem
+}
+
+Cascading
+
+p{
+    color: blue !important;
+    color: red;
+    color: green;
+}
+.text{
+    color: purple;
+}
+
+  -->

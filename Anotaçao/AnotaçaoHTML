@@ -1,0 +1,231 @@
+<!-- ==================Atalhos===============
+Alt + Z - ajuste de linha
+ctrl + B - fecha ou abre o explorar
+ctrl + ; - comentar
+selecionar tudo e dar shift + Tab - ajustar as linhas
+-->
+<!-- ==================Sites=================
+
+SheCodes -->
+<!-- ==================HTML==================
+
+<h1> Hello World</h1>
+<h2> Hello World</h2>
+<h3> Hello World</h3>
+<h4> Hello World</h4>
+<h5> Hello World</h5>
+<h6> Hello World</h6>
+
+ <p>Ola Mundo</p>
+
+<ol>
+    <li>Item A</li>
+    <li>Item B</li>
+    <li>Item C</li>
+</ol>
+
+<ul style="list-style: none;">
+    <li>Item A</li>
+    <li>Item B</li>
+    <li>Item C</li>
+</ul>
+
+<a href="https://www.youtube.com/">Clique Aqui</a>
+
+ href - Usado para onde o linque que vamos colocar vai
+ String - sao valores textuais
+
+ <img src="./PastorAlemao.webp" alt="Foto de Cachorro" width="400">
+
+<button>Click Here</button> 
+
+link - usando para chamar uma pasta
+
+
+=======================================================
+
+Cores
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Color 0</h1>
+    <p>Cores 1</p>
+    <p>Cores 2</p>
+    <p>Cores 3</p>
+    <h2>RGBA</h2>
+    <h3>HSL</h3>
+</body>
+</html>
+
+=======================================================
+
+Fontes
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Fontes</title>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus soluta voluptatum amet odio nulla aperiam corporis, natus, dignissimos harum quibusdam cum perferendis necessitatibus, beatae sint saepe doloremque rerum tempore obcaecati.
+    </p>
+</body>
+</html>
+
+=======================================================
+
+Tamanho Fonte
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <p class="pixel">Tamanho em Pixel</p>
+    <p class="points">Tamanho em Points</p>
+</body>
+</html>
+
+=======================================================
+
+Seletores
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        p{
+            color: blue;
+        }
+        .exemplo{
+            font-weight: bold;
+        }
+        #header{
+            font-size: 32px;
+        }
+        [type='text']{
+            border: 1px solid orangered;
+        }
+
+        div.exemple{
+            background-color: yellow;
+        }
+        div > p{
+            color: green;
+        }
+        p + h3{
+            margin-top: 30px;
+        }
+        p ~ h3{
+            font-style: italic;
+        }
+        div ul li{
+            font-size: 20px;
+            list-style-type: square;
+        }
+    </style>
+</head>
+<body>
+    <p class="pixel">Tamanho em Pixel</p>
+    <p class="exemplo">Tamanho em Points</p>
+    <p>seletor por elemeno</p>
+    <p class="exemplo" id="header">seletor por id</p>
+    <p class="exemplo" type="text">seletor por atributo</p>
+    <div class="exemple">seletor por combinaçao</div>
+    <div>
+        <p>Seletor tipo Pai > Filho</p>
+        <h3>Seletor Adjacente</h3>
+        <h3>Seletor Irmao</h3>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </div>
+</body>
+</html>
+
+=======================================================
+
+Formulario
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        button{
+            margin-top: 10px;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <form action="submit" method="post">
+        <label for="login">Login</label>
+        <input type="text" placeholder="Nome de Usuario">
+        <input type="password" placeholder="Senha">
+    </form>
+    <button type="submit">Submit</button>
+</div>
+</body>
+</html>
+
+
+Cascading
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cascading</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p class="text">Lorem ipsum dolor sit amet.</p>
+</body>
+</html>
+
+-->
+<!-- ==================GIT=================== 
+
+
+-->
