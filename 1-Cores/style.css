@@ -1,0 +1,30 @@
+p {
+    font-size: 40px;
+    font-weight: bold;
+    color: aqua;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(68, 90, 30);
+}
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(68, 90, 30, 0.3);
+}
+ h3{
+    font-size: 40px;
+    color: hsl(280, 70%, 70%);
+    border: 1px solid;
+    background-color: hsla(280, 70%, 70%, 0.5);
+ }
+ 
+h1{
+    font-size: 40px;
+    color: hsl(244, 100%, 50%);
+}
+ h2{
+    font-size: 40px;
+    color: hsl(0, 100%, 50%);
+ }

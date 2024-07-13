@@ -1,0 +1,55 @@
+@media (max-width: 375px){
+    body{
+        background-color: red;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    button{
+        margin-top: 10px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    label{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+@media (max-width: 1024px) and (min-width: 376px){
+    body{
+        background-color: green;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 26px;
+    }
+    form{
+        display: flex;
+        gap: 10px;
+    }
+    button{
+        margin-top: 10px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    label{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}

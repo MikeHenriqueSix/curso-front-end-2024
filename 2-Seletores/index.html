@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        p{
+            color: blue;
+        }
+        .exemplo{
+            font-weight: bold;
+        }
+        #header{
+            font-size: 32px;
+        }
+        [type='text']{
+            border: 1px solid orangered;
+        }
+
+        div.exemple{
+            background-color: yellow;
+        }
+        div > p{
+            color: green;
+        }
+        p + h3{
+            margin-top: 30px;
+        }
+        p ~ h3{
+            font-style: italic;
+        }
+        div ul li{
+            font-size: 20px;
+            list-style-type: square;
+        }
+    </style>
+</head>
+<body>
+    <p class="pixel">Tamanho em Pixel</p>
+    <p class="exemplo">Tamanho em Points</p>
+    <p>seletor por elemeno</p>
+    <p class="exemplo" id="header">seletor por id</p>
+    <p class="exemplo" type="text">seletor por atributo</p>
+    <div class="exemple">seletor por combinaçao</div>
+    <div>
+        <p>Seletor tipo Pai > Filho</p>
+        <h3>Seletor Adjacente</h3>
+        <h3>Seletor Irmao</h3>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </div>
+</body>
+</html>
