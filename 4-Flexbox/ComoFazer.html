@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+        .tag{
+            background-color: #677D6A;
+            color: #D6BD98;
+            font-weight: bold;
+            height: 19vh;
+            width: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 10px;
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            font-weight: bold;
+        }
+
+        .container{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        button{
+            background-color: #1A3636;
+            color: #D6BD98;
+            border: none;
+            border-radius: 10px;
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            font-weight: bold;
+        }
+        p{
+            margin: 0;
+        }
+        @media(max-width: 500px){
+            .container{
+                flex-direction: column;
+            }
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="tag">
+            <p>Nome</p>
+            <p>Preço</p>
+            <button>Comprar</button>
+        </div>
+        <div class="tag">
+            <p>Nome</p>
+            <p>Preço</p>
+            <button>Comprar</button>
+        </div>
+        <div class="tag">
+            <p>Nome</p>
+            <p>Preço</p>
+            <button>Comprar</button>
+        </div>
+
+    </div>
+</body>
+</html>
