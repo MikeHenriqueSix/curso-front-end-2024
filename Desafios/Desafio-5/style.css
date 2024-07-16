@@ -1,0 +1,29 @@
+div div{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 20px 20px;
+}
+.item{
+    background-color: white;
+}
+.item-1{
+    background-color: #f0d9b5;
+}
+.item-2{
+    background-color: #b58863;
+}
+.item-3{
+    background-color: #b58863;
+
+}
+.item-4{
+    background-color: #f0d9b5;
+
+}
