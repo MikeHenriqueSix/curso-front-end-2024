@@ -3,9 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <img class="banner" src="https://static.vecteezy.com/ti/vetor-gratis/p3/2052354-game-over-banner-for-games-with-glitch-effect-in-pixel-style-light-neon-on-text-vector-illustration-design-gratis-vetor.jpg" alt="">
+
+
+      <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold text-body-emphasis">Game of the Moment</h1>
+        <h2>Outlast</h2>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Hell is an experiment you can't survive in Outlast, a first-person survival horror game developed by veterans of some of the biggest game franchises in history.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Buy Game</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+                View more</button>
+          </div>
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh;">
+          <div class="container px-5">
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container">
+
+        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active carousel-item-start">
+              <img src="https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2024/03/roblox.png" alt="" width="1200" height="600">
+            </div>
+            <div class="carousel-item carousel-item-next carousel-item-start">
+              <img src="https://media.steampowered.com/apps/csgo/blog/images/fb_image.png?v=6" alt="" width="1200">
+            </div>
+            <div class="carousel-item">
+              <img src="https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000000964/a28a81253e919298beab2295e39a56b7a5140ef15abdb56135655e5c221b2a3a" alt="" width="1200" height="600">
+
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+
+      </div>
+      <div class="container py-3">
+        <header>
+          <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+          <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal text-body-emphasis">Pricing  Card's</h1>
+            <p class="fs-5 text-body-secondary">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+          </div>
+        </header>
+      
+        <main>
+          <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="card-header py-3 border-primary">
+                  <h4 class="my-0 fw-normal">Steam Card</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$50,00<small class="text-body-secondary fw-light"></small></h1>
+                  <button type="button" class="w-100 btn btn-lg btn-outline-primary">Buy Card</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="card-header py-3 border-primary">
+                  <h4 class="my-0 fw-normal">Xbox Game Pass</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$35,99<small class="text-body fw-light">/mo</small></h1>
+                  <button type="button" class="w-100 btn btn-lg btn-outline-primary">Buy Card</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="card-header py-3 border-primary">
+                  <h4 class="my-0 fw-normal">Nintendo Card</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$49,00<small class="text-body-secondary fw-light"></small></h1>
+                  <button type="button" class="w-100 btn btn-lg btn-outline-primary">Buy Card</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+      </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
