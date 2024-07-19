@@ -18,6 +18,27 @@
 
 // console.log(nome);
 
+// function apresenta(){
+//     alert("Hey, eu sou o Mike!")
+// }
+
+// // function call
+
+// apresenta()
+
+// function soma(){
+//     var a = parseInt(prompt("A: "));
+//     var b = parseInt(prompt("B: "));
+//     return a + b
+// }
+// var res = soma();
+
+// function soma(a, b){
+//     return a + b
+// }
+// var res = soma(10, 4)
+// console.log(res)
+
 
 
 
@@ -46,3 +67,7 @@
 
 
 // console.log(tweet.length);
+
+
+
+
