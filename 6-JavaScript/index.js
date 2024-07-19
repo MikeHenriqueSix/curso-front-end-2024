@@ -39,6 +39,15 @@
 // var res = soma(10, 4)
 // console.log(res)
 
+// function soma(nome, sobrenome){
+
+    
+    
+//     return nome.slice(0, 1).toUpperCase() + nome.slice(1, nome.length).toLowerCase() + " " + sobrenome.slice(0, 1).toUpperCase() + sobrenome.slice(1, sobrenome.length).toLowerCase();
+// }
+//     var nome = prompt("Nome: ");
+//     var sobrenome = prompt("Sobrenome: ");
+//     console.log(soma(nome, sobrenome))
 
 
 
